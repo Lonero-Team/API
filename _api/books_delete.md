@@ -1,8 +1,8 @@
 ---
-title: /books/:id
+title: /devices/:id
 position_number: 1.5
-type: delete
-description: Deletes a book
+type: post
+description: Post devices
 parameters:
   - name:
     content:

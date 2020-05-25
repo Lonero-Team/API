@@ -1,8 +1,8 @@
 ---
-title: /books
+title: /devices
 position_number: 1.1
 type: post
-description: Create Book
+description: Get devices
 parameters:
   - name: title
     content: The title for the book

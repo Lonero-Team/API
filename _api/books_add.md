@@ -6,12 +6,11 @@ description: Get devices
 parameters:
   - name: skip
     content: Number of records to skip
-  - name: limit
+  - name: limit - max number of records to return
     content: Max number of records to return
 content_markdown: |-
-  The book will automatically be added to your reading list
-  {: .success}
-
+  limit
+  integer($int32)
   Adds a book to your collection.
 left_code_blocks:
   - code_block: |-
@@ -42,5 +41,3 @@ right_code_blocks:
     title: Error
     language: json
 ---
-
-

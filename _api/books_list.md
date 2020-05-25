@@ -1,8 +1,8 @@
 ---
-title: /books
+title: /z-wave
 position_number: 1.0
 type: get
-description: List all books
+description: Device ID, value and time unit
 parameters:
   - name: offset
     content: Offset the results by this amount

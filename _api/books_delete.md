@@ -4,8 +4,8 @@ position_number: 1.5
 type: post
 description: Post devices
 parameters:
-  - name:
-    content:
+  - device:
+    id:
 content_markdown: |-
   Deletes a book in your collection.
 left_code_blocks:

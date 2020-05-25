@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Returns a specific book from your collection
+  Returns Device ID and Values
 left_code_blocks:
   - code_block: |-
       $.get("http://api.myapp.com/books/3", {

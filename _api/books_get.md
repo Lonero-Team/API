@@ -1,8 +1,8 @@
 ---
-title: /books/:id
+title: /z-wave/:id
 position_number: 1.3
 type: get
-description: Get Book
+description: Device ID and values
 parameters:
   - name:
     content:

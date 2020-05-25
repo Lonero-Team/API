@@ -1,8 +1,8 @@
 ---
-title: /books/:id
+title: /z-wave/:id
 position_number: 1.4
 type: put
-description: Update Book
+description: Device IDs
 parameters:
   - name: title
     content: The title for the book

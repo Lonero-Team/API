@@ -7,7 +7,7 @@ parameters:
   - device:
     id:
 content_markdown: |-
-  Deletes a book in your collection.
+  Successfully registered device
 left_code_blocks:
   - code_block: |-
       $.ajax({
@@ -38,4 +38,3 @@ right_code_blocks:
     title: Error
     language: json
 ---
-

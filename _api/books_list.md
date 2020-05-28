@@ -4,15 +4,16 @@ position_number: 1.0
 type: get
 description: Device ID, value and time unit
 parameters:
-  - name: response
-    content: Device state responses 
-  - name: getState
-    content: Look at device state
+  - name: deviceId
+    content: Calls the device ID
+  - name: SetState
+    content: Set the state of devices
 content_markdown: |-
   This call will return a maximum of 100 books
   {: .info }
 
-  Lists and get calls of Device IDs and states .left_code_blocks:
+  Lists all the photos you have access to. You can paginate by using the parameters listed above.
+left_code_blocks:
   - code_block: |-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
         alert(data);

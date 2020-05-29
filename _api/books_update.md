@@ -4,10 +4,10 @@ position_number: 1.4
 type: put
 description: Device IDs
 parameters:
-  - name: title
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
+  - name: device
+    content: Collect device ids for peers
+  - name: deviceId
+    content: Set path for collecting device ids
 content_markdown: |-
   Update an existing book in your collection.
 left_code_blocks:

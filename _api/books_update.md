@@ -9,7 +9,7 @@ parameters:
   - name: deviceId
     content: Set path for collecting device ids
 content_markdown: |-
-  Update an existing book in your collection.
+  Set path for the calling of device ids
 left_code_blocks:
   - code_block: |-
       $.ajax({

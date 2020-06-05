@@ -9,8 +9,8 @@ parameters:
   - name: SetState
     content: Set the state of devices
 content_markdown: |-
-  This call will return a maximum of 100 books
-  {: .info }
+  x-swagger-router-controller: "ZWave"
+  /lighting/dimmers/{deviceId}/{value}/timer/{timeunit}:
 
   Lists all the photos you have access to. You can paginate by using the parameters listed above.
 left_code_blocks:

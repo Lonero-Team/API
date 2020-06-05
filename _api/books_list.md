@@ -12,7 +12,7 @@ content_markdown: |-
   x-swagger-router-controller: "ZWave"
   /lighting/dimmers/{deviceId}/{value}/timer/{timeunit}:
 
-  Lists all the photos you have access to. You can paginate by using the parameters listed above.
+  Sets device Id response through ZWave
 left_code_blocks:
   - code_block: |-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {

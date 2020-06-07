@@ -14,12 +14,10 @@ content_markdown: |-
   Max number of records to return
 left_code_blocks:
   - code_block: |-
-      $.post("http://api.myapp.com/books/", {
-        "token": "YOUR_APP_KEY",
-        "title": "The Book Thief",
-        "score": 4.3
-      }, function(data) {
-        alert(data);
+      $ref: '#/definitions/DeviceRegistrationInfo'
+      responses:
+        200:
+          description: successfully registered device
       });
     title: jQuery
     language: javascript

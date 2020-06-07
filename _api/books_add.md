@@ -23,12 +23,9 @@ left_code_blocks:
     language: javascript
 right_code_blocks:
   - code_block: |-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
+      responses:
+       200:
+       description: successfully registered device
     title: Response
     language: json
   - code_block: |-

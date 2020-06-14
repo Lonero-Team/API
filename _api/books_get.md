@@ -21,23 +21,13 @@ left_code_blocks:
           type: string
            format: uuid
            example: '0729a580-2240-11e6-9eb5-0002a5d5c51b'      
-    title: jQuery
-    language: javascript
+    title: Zone ID
+    language: json
 right_code_blocks:
   - code_block: |2-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
+      host: virtserver.swaggerhub.com
+      basePath: /Lonero/Decentralized-Internet_API/1.0.0
+      schemes:       - https      
     title: Response
-    language: json
-  - code_block: |2-
-      {
-        "error": true,
-        "message": "Book doesn't exist"
-      }
-    title: Error
     language: json
 ---

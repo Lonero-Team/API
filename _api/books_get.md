@@ -28,6 +28,6 @@ right_code_blocks:
       host: virtserver.swaggerhub.com
       basePath: /Lonero/Decentralized-Internet_API/1.0.0
       schemes:       - https      
-    title: Response
+    title: Host
     language: json
 ---

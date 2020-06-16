@@ -15,23 +15,34 @@ content_markdown: |-
   Sets device Id response through ZWave
 left_code_blocks:
   - code_block: |-
-      $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-        alert(data);
-      });
-    title: jQuery
+      $ref: '#/definitions/ApiResponse'
+    title: API Response
     language: javascript
   - code_block: |-
-      r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
-      print r.text
-    title: Python
-    language: python
+      $ref: '#/definitions/LightingSummary'
+    title: Lighting Summary
+    language: javascript
   - code_block: |-
-      var request = require("request");
-      request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error, response, body) {
-      if (!error && response.statusCode == 200) {
-        console.log(body);
-      }
-    title: Node.js
+     {
+      "zones": [
+      {
+      "id": "string",
+      "name": "string",
+      "deviceId": 0,
+      "deviceType": "dimmer",
+      "zone": "string"
+         }
+       ],
+     "zoneStatus": [
+       {
+       "id": "string",
+       "name": "string",
+       "lastUpdate": "2020-06-16T23:40:29.510Z",
+       "level": 0
+         }
+       ]
+     }
+    title: Zone Status
     language: javascript
   - code_block: |-
       curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY

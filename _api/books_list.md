@@ -45,9 +45,9 @@ left_code_blocks:
     title: Zone Status
     language: javascript
   - code_block: |-
-      curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY
-    title: Curl
-    language: bash
+      $ref: '#/definitions/HeaterState'
+    title: HeaterState
+    language: javascript
 right_code_blocks:
   - code_block: |2-
       [

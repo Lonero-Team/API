@@ -17,11 +17,11 @@ left_code_blocks:
   - code_block: |-
       $ref: '#/definitions/ApiResponse'
     title: API Response
-    language: javascript
+    language: json
   - code_block: |-
       $ref: '#/definitions/LightingSummary'
     title: Lighting Summary
-    language: javascript
+    language: json
   - code_block: |-
      {
       "zones": [
@@ -43,34 +43,18 @@ left_code_blocks:
        ]
      }
     title: Zone Status
-    language: javascript
+    language: json
   - code_block: |-
       $ref: '#/definitions/HeaterState'
     title: HeaterState
-    language: javascript
+    language: json
 right_code_blocks:
   - code_block: |2-
-      [
-        {
-          "id": 1,
-          "title": "The Hunger Games",
-          "score": 4.5,
-          "dateAdded": "12/12/2013"
-        },
-        {
-          "id": 1,
-          "title": "The Hunger Games",
-          "score": 4.7,
-          "dateAdded": "15/12/2013"
-        },
-      ]
-    title: Response
+      $ref: '#/definitions/TemperatureZone'
+    title: Temp Zone
     language: json
   - code_block: |2-
-      {
-        "error": true,
-        "message": "Invalid offset"
-      }
-    title: Error
+      $ref: '#/definitions/TemperatueZoneStatus'
+    title: Temp Zone Status
     language: json
 ---

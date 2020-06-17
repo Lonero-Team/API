@@ -10,25 +10,18 @@ content_markdown: |-
   Successfully registered device
 left_code_blocks:
   - code_block: |-
-      $.ajax({
-        "url": "http://api.myapp.com/books/3",
-        "type": "DELETE",
-        "data": {
-          "token": "YOUR_APP_KEY"
-        },
-        "success": function(data) {
-          alert(data);
-        }
-      });
-    title: jQuery
-    language: javascript
+      [
+        "http://10.0.0.225:8080"
+      ]      
+    title: All the Devices
+    language: json
 right_code_blocks:
   - code_block: |2-
       {
-        "id": 3,
-        "status": "deleted"
-      }
-    title: Response
+        "uri": "http://10.0.0.220:8080",
+        "id": "0729a580-2240-11e6-9eb5-0002a5d5c51b"
+      }      
+    title: Device
     language: json
   - code_block: |2-
       {

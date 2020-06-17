@@ -12,35 +12,40 @@ content_markdown: |-
   Set path for the calling of device ids
 left_code_blocks:
   - code_block: |-
-      $.ajax({
-        "url": "http://api.myapp.com/books/3",
-        "type": "PUT",
-        "data": {
-          "token": "YOUR_APP_KEY",
-          "score": 5.0,
-          "title": "The Book Stealer"
-        },
-        "success": function(data) {
-          alert(data);
-        }
-      });
-    title: jQuery
-    language: javascript
+      {
+        "uri": "http://10.0.0.220:8080",
+        "id": "0729a580-2240-11e6-9eb5-0002a5d5c51b"
+      }      
+    title: Device ID JSON
+    language: json
 right_code_blocks:
   - code_block: |2-
-      {
-        "id": 3,
-        "title": "The Book Stealer",
-        "score": 5,
-        "dateAdded": "5/1/2015"
-      }
-    title: Response
+      operationId: "setDimmer"
+      parameters:
+      - name: "deviceId"
+        in: "path"
+        required: true
+        type: "string"
+      - name: "value"
+        in: "path"
+        required: true
+        type: "integer"
+        maximum: 100.0
+        minimum: 0.0
+        format: "int32"      
+    title: Parameters
     language: json
-  - code_block: |2-
-      {
-        "error": true,
-        "message": "Book doesn't exist"
-      }
-    title: Error
+    properties:
+      id:
+        type: string
+      name:
+        type: string
+      lastUpdate:
+        type: string
+        format: date-time
+      level:
+        type: integer
+        format: int32      
+    title: Device State Properties
     language: json
 ---

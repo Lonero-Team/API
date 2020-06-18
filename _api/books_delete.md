@@ -24,10 +24,7 @@ right_code_blocks:
     title: Device
     language: json
   - code_block: |2-
-      {
-        "error": true,
-        "message": "Book doesn't exist"
-      }
-    title: Error
+      $ref: '#/definitions/DeviceRegistrationInfo'
+    title: Device Registration Info
     language: json
 ---

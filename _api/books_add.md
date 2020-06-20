@@ -19,8 +19,8 @@ left_code_blocks:
         200:
           description: successfully registered device
       });
-    title: jQuery
-    language: javascript
+    title: Device Registeration Response
+    language: json
 right_code_blocks:
   - code_block: |-
       responses:

@@ -11,16 +11,16 @@ content_markdown: |-
 
   This API is still under development and will evolve.
 
-  You'll succeed if you do this.
+  Device connected
   {: .success }
 
-  Here's some useful information.
+  Device ID is needed
   {: .info }
 
-  Something may not happen if you try and do this.
+  Connection is failing
   {: .warning }
 
-  Something bad will happen if you do this.
+  Connection failed
   {: .error }
 left_code_blocks:
   - code_block:

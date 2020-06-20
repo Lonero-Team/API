@@ -47,7 +47,7 @@ left_code_blocks:
   - code_block: |-
       $ref: '#/definitions/HeaterState'
     title: HeaterState
-    language: json
+    language: yaml
 right_code_blocks:
   - code_block: |2-
       $ref: '#/definitions/TemperatureZone'

@@ -5,11 +5,11 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  You need to be authenticated for all API requests. You can generate an API key in your developer dashboard.
+  This is the API for old ZWave compatibility that can be ran untop of a parallel processing mesh network
 
   Add the API key to all requests as a GET parameter.
 
-  Nothing will work unless you include this API key
+  Nothing will work unless you include the Device ID
   {: .error}
 left_code_blocks:
   - code_block:

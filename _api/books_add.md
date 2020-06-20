@@ -18,7 +18,7 @@ left_code_blocks:
       responses:
         200:
           description: successfully registered device
-      });
+      );
     title: Device Registeration Response
     language: yaml
 right_code_blocks:

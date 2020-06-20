@@ -17,13 +17,16 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: |2-
-       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
-         alert(data);
-       });
-    title: JQuery
-    language: javascript
+       [
+       "http://10.0.0.225:8080"
+       ]
+    title: All the Devices
+    language: json
   - code_block: |2-
-       curl http://api.myapp.com/books?token=YOUR_APP_KEY
-    title: Curl
-    language: bash
+       {
+       "uri": "http://10.0.0.220:8080",
+       "id": "0729a580-2240-11e6-9eb5-0002a5d5c51b"
+       }
+    title: Device ID Registeration
+    language: json
 ---

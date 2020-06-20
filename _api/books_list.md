@@ -17,11 +17,11 @@ left_code_blocks:
   - code_block: |-
       $ref: '#/definitions/ApiResponse'
     title: API Response
-    language: json
+    language: yaml
   - code_block: |-
       $ref: '#/definitions/LightingSummary'
     title: Lighting Summary
-    language: json
+    language: yaml
   - code_block: |-
      {
       "zones": [

@@ -22,7 +22,7 @@ left_code_blocks:
            format: uuid
            example: '0729a580-2240-11e6-9eb5-0002a5d5c51b'      
     title: Zone ID
-    language: json
+    language: yaml
 right_code_blocks:
   - code_block: |2-
       host: virtserver.swaggerhub.com

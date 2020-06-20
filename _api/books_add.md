@@ -20,7 +20,7 @@ left_code_blocks:
           description: successfully registered device
       });
     title: Device Registeration Response
-    language: json
+    language: yaml
 right_code_blocks:
   - code_block: |-
       responses:

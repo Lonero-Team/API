@@ -5,11 +5,11 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to our API.
+  Welcome to our API page.
 
-  This API document is designed for those interested in developing for our platform.
+  This API document is designed for those interested in ZWave compatibility.
 
-  This API is still under development and will evolve.
+  This API is still under development and will continue being updated.
 
   Device connected
   {: .success }
